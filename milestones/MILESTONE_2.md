@@ -18,13 +18,13 @@ displaying the outcome of the calculations, and a **ButtonPanel** component whic
     - **REMEMBER!** JSX will not compile unless your render function returns a single element. Wrap the children components with a div tag and give it an appropriate ID.
 3. Implement the **Display** component
     - It should accept the result of the calculation as an incoming prop.
-    - The result prop should be a String.
+    - The result prop should be a String. Please use prop-types for this validation.
     - The default value of the result prop should be 0.
 4. Implement the **Button** component
     - It should accept a button name as a prop.
-    - The button name prop should be a String.
+    - The button name prop should be a String. Please use prop-types for this validation.
 5. Implement the **ButtonPanel** component
-    - It should render the calculator panel with all the buttons.Do not repeat `Button` component.
+    - It should render the calculator panel with all the buttons. Do not repeat `Button` component.
   
       **Hint:** You can divided in the following groups: (use nested array to divide buttons into groups and then you can use `map` function)
         - Group 1: AC, +/-, %, +

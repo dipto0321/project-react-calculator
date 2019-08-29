@@ -13,6 +13,8 @@ Let's put aside the React work for a moment. We will now focus on the heart of t
     - The `calculate` method should accept a calculator data object and a button name as arguments.
     - The calculator data object should contain three properties: `total`, `next` and `operation`.
     - This method should use the buttonName argument to mutate the calculator's data object and return its modified version. For instance if `buttonName == "+/-"`, it should multiply `total` and `next` by `-1` to make it negative or positive.
+    - Implement any number can not divided by zero calculation. It should return an error message which will display in the calculator.
+  
 3. Implement the `operate.js` module
     - It should import the `big.js` module from the corresponding npm package.
     - It should implement one default function named `operate`.

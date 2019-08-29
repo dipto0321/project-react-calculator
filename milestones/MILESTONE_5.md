@@ -10,7 +10,7 @@ We are now very close to the final line. Your last task is to tie the calculatio
      properties: `total`, `next` and `operation`, just like in your `calculate.js` module. By default, they should all
      be set to `null`.
     - Implement the `handleClick` function which takes `buttonName` as an argument and changes the state based on the result of the `calculate` function.
-    - Pass the `total` or `next` value to **Display** to display the current result.
+    - Pass the `total` or `next` or `error` value to **Display** to display the current result.
     - Pass `handleClick` as a `clickHandler` property to **ButtonPanel**
 2. **ButtonPanel**
     - Implement the `handleClick` function which takes `buttonName` as an argument and returns `clickHandler` from props.
