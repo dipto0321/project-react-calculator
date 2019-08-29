@@ -24,11 +24,15 @@ displaying the outcome of the calculations, and a **ButtonPanel** component whic
     - It should accept a button name as a prop.
     - The button name prop should be a String.
 5. Implement the **ButtonPanel** component
-    - It should render the calculator panel with all the buttons in the following groups: (use divs to divide buttons into groups)
+    - It should render the calculator panel with all the buttons.Do not repeat `Button` component.
+  
+      **Hint:** You can divided in the following groups: (use nested array to divide buttons into groups and then you can use `map` function)
         - Group 1: AC, +/-, %, +
         - Group 2: 7, 8, 9, X
         - Group 3: 4, 5, 6, -
         - Group 4: 1, 2, 3, +
         - Group 5: 0, ., =
+
+        Or you can also use a simple array and then `map` function without grouping.
 
 If you fulfilled all requirements properly, you should see a pretty ugly page full of non-functional buttons. Don't worry, you will add some functionality in the next milestone!
